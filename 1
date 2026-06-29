@@ -1,0 +1,8 @@
+#1. Solicite uma nota entre 0 e 10. Continue pedindo até que o usuário informe um valor válido.
+while True:
+    n = float(input("Digite uma nota entre 0 e 10: "))
+    if n < 0 or n > 10:
+        print("Valor inválido. Tente novamente.")
+    else:
+        print("Nota valida")
+        break
