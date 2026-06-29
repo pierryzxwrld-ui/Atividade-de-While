@@ -1,0 +1,11 @@
+#10. Defina um número fixo no código. Peça ao usuário para adivinhar até acertar. Informe se o palpite é maior ou menor que o número correto
+numFixo = 42
+while True:
+    num = int(input("Adivinhe o numero fixo:"))
+    if num < numFixo:
+        print("O numero é menor que o numero fixo.")
+    elif num > numFixo:
+        print("O numero é maior que o numero fixo.")
+    else:
+        print("Você acertou o numero fixo!")
+        break
