@@ -1,0 +1,9 @@
+#2. Peça ao usuário para digitar uma senha. Continue solicitando até que ele acerte a senha correta (defina uma senha fixa no código).
+senha = "abc321"
+while True:
+    n = input("Digite a senha: ")
+    if n != senha:
+        print("Senha incorreta. Tente novamente.")
+    else:
+        print("Senha correta!")
+        break
