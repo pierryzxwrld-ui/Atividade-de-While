@@ -1,0 +1,15 @@
+numPositivo = 0
+numNegativo = 0
+while True:
+    num = float(input("Digite um numero (0 para parar):"))
+    if num > 0:
+        numPositivo = numPositivo + 1
+        print("Existem",numPositivo,"numeros positivos")
+    elif num < 0:
+        numNegativo = numNegativo + 1
+        print("Existem",numNegativo,"numeros negativos")
+    else:
+        print("Programa finalizado")
+        break
+print("Foram digitados",numPositivo,"numeros positivos")
+print("Foram digitados",numNegativo,"numeros negativos")
