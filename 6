@@ -1,0 +1,10 @@
+#6. Peça vários números ao usuário (encerra com 0) e informe qual foi o maior número digitado
+maiorNumero = 0
+while True:
+    n = int(input("Digite um numero inteiro (0 para parar): "))
+    if n == 0:
+        print("Programa finalizado")
+        break
+    elif n > maiorNumero:
+        maiorNumero = n
+        print("O numero é maior que o maior numero digitado até agora foi ", maiorNumero)
