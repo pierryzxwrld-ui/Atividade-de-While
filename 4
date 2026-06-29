@@ -1,0 +1,10 @@
+#4. Peça números ao usuário e some-os. O programa deve parar quando o usuário digitar um número negativo. Ao final, mostre a soma total.
+soma = 0
+
+while True:
+    num = float(input("Digite um numero (negativo para parar):"))
+    if num < 0:
+        break
+    else:
+        soma = soma + num
+print("A soma total é:", soma)
